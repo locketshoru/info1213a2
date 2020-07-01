@@ -1,0 +1,30 @@
+body {
+	background-color: #6c757d; !important
+}
+
+.hr-custom {
+  border-top: 1px dashed #f8f9fa;
+}
+
+#CSL {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.card-custom {
+	margin-bottom: 25px;
+}
+
+#acdc {
+	margin-bottom: 50px;
+}
+
+#avenir { /* Max w/h for proportions. BR for rounded corners, border for fancy green outline, padding for expanding the outline into something pretty. Float + margin so it doesn't noclip through text. */
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 10px;
+	border: 2px solid #37B582;
+	padding: 2px;
+	float: left;
+	margin-right: 10px;
+}

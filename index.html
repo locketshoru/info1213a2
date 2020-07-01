@@ -1,0 +1,149 @@
+<!DOCTYPE html><html>
+ <head>
+    <title>INFO1213 - A2</title>
+ 	<link rel="stylesheet" href="info1213a2.css" type="text/css"> <!-- mine above / bootstrap below -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- mobile rendering -->
+
+<!-- required javascript for bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+		<script>
+			$(document).ready(function(){
+  				$('[data-toggle="popover"]').popover();
+			});
+		</script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+ </head> <body class="bg-secondary">
+
+<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"><div class="container">
+	 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTog" aria-controls="navTog" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+	    	<a class="navbar-brand" href="#">Aries Avenir</a>
+	    	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	      		<li class="nav-item active">
+	        		<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="more.html">More</a>
+	      		</li>
+	    	</ul>
+	    <form class="form-inline my-2 my-lg-0">
+	      	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      	<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	    </form>
+	  </div></div>
+	</nav>
+
+<!-- container -->
+<div class="container">
+
+<!-- carousel / CSL -->
+	<div id="CSL" class="carousel slide carousel-fade" data-ride="carousel">
+  		<ol class="carousel-indicators">
+    		<li data-target="#CSL" data-slide-to="0" class="active"></li>
+    		<li data-target="#CSL" data-slide-to="1"></li>
+    		<li data-target="#CSL" data-slide-to="2"></li>
+  		</ol>
+  		<div class="carousel-inner">
+    		<div class="carousel-item active" data-interval="1000000">
+      			<img src="homura1.jpg" class="d-block w-100" alt="Akemi Homura, our lady and saviour.">
+      			<div class="carousel-caption d-none d-md-block">
+        			<h5>Akemi Homura</h5>
+        			<p>I was also, unfortunately, falling from the sky.</p>
+      			</div>
+    		</div>
+    		<div class="carousel-item" data-interval="1000000">
+      			<img src="homura2.jpg" class="d-block w-100" alt="Akemi Homura, our lady and saviour. Second sighting.">
+      			<div class="carousel-caption d-none d-md-block">
+        			<h5>Akemi Homura, Second Sighting</h5>
+        			<p>Photography is my only proof that I saw this.</p>
+      			</div>
+   			</div>
+    		<div class="carousel-item" data-interval="1000000">
+      			<img src="homura3.jpg" class="d-block w-100" alt="Akemi Homura, our lady and saviour. Third sighting.">
+      			<div class="carousel-caption d-none d-md-block">
+        			<h5>Akemi Homura, Third Sighting</h5>
+        			<p>...So I am lucky to still be alive.</p>
+      			</div>
+    		</div>
+ 		</div>
+  			<a class="carousel-control-prev" href="#CSL" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#CSL" role="button" data-slide="next">
+   				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+	</div>
+
+<!-- intro jumbotron -->
+	<div class="jumbotron bg-dark text-light">
+  		<h1 class="display-5">Aries Avenir</h1>
+  		<p class="lead">An amateur, self-taught, time-travelling photographer who delves the depths of a harddrive full of images.</p>
+  		<hr class="my-4 hr-custom">
+  		<p>Most of these images are from Saint Seiya: Awakening, which is a game I will never play because I have no idea how. But then I ran out of images. So now Avenir gets to take pictures from wherever I find something decent in my harddrive that doesn't look awful. It was said 'resume / portfolio website' and at no point in that sentence did it say it had to be a tech resume. I always think of art and photography when someone says portfolio. Tech portfolios are on git. But honestly, this is way more fun than trying to do a tech portfolio not on git, so I'm keeping the theme and running with it.</p>
+  		<p>The grid images below all have popovers for captions. Click 'em and see. The carousel above has a ridiculously long scrolltime, because I hate carousels you can't pause with every fiber of my being, and they're required. I want animated stuff when I asked for it. Web design is not one of those places. Stop making stuff move if I can't make it stop. Bah.</p>
+  		<a class="btn btn-primary btn-md" href="more.html" role="button">To the other page</a>
+	</div>
+
+<!-- boxes -->
+	<div class="row">
+	    <div class="col-lg-4 col-md-6 col-sm-12">
+	        <div class="card">
+	        	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="The Asphodel Fields" data-content="taken 04/15. a brutal place deep within the underworld, but somehow green.">
+	          	<img src="box1.jpg" class="card-img-top" alt="...">
+	          	</button>
+	        </div>
+	    </div>
+	    <div class="col-lg-4 col-md-6 col-sm-12">
+	        <div class="card card-custom">
+	          	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="The Pisces Temple" data-content="taken 07/25, at sunrise, i don't recommend taking that walk alone, ever.">
+	          	<img src="box2.jpg" class="card-img-top" alt="...">
+	          	</button>
+	        </div>
+	    </div>
+	    <div class="col-lg-4 col-md-6 col-sm-12">
+	        <div class="card card-custom">
+	          	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="The Cancer Temple" data-content="taken 09/12. do you think sage and hakurei clean up in there? i'm thinking not likely.">
+	          	<img src="box3.jpg" class="card-img-top" alt="...">
+	          	</button>
+	        </div>
+	    </div>
+	    <div class="col-lg-4 col-md-6 col-sm-12">
+	        <div class="card card-custom">
+	          	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="The Fallen Skies" data-content="taken forward in time, roughly april. a peaceful future that may never be.">
+	          	<img src="box4.jpg" class="card-img-top" alt="...">
+	          	</button>
+	        </div>
+	    </div>
+	    <div class="col-lg-4 col-md-6 col-sm-12">
+	        <div class="card card-custom">
+	          	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="The Fields of Sanctuary" data-content="taken back in time, before the war. a little crumbly on the roots, but strong.">
+	          	<img src="box5.jpg" class="card-img-top" alt="...">
+	          	</button>
+	        </div>
+	    </div>
+	    <div class="col-lg-4 col-md-6 col-sm-12">
+	        <div class="card card-custom">
+	          	<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Virgo Shaka" data-content="taken forward in time, june? i've seen this guy before. finally got a good picture.">
+	          	<img src="box6.jpg" class="card-img-top" alt="...">
+	          	</button>
+	        </div>
+	    </div>
+	</div>
+
+</div>
+<!-- javascript for popovers -->
+		<script>
+			$(document).ready(function(){
+  				$('[data-toggle="popover"]').popover();
+			});
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+</body></html>
